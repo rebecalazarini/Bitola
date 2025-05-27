@@ -20,3 +20,6 @@ flutter pub get
 ```bash
 flutter run
 ```
+## Prints dos testes
+![Print01](/assets/b1.jpeg)
+![Print02](/assets/b2.jpeg)
