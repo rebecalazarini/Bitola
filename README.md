@@ -1,16 +1,22 @@
-# myapp
+# Bitola
 
-A new Flutter project.
+- Desenvolver um aplicativo que recebe como entrada a corrente elétrica em ampères e a distância em metros e exibe a bitola do fio em milímetros quadrados, tanto para tensão de 110V quanto para 220V.
+Fórmula:
+bitola110 = (2 * corrente * distância) / 294.64
+bitola220 = (2 * corrente * distância) / 510.4
 
-## Getting Started
+## Tecnologias 
+- Flutter
+- Dart
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Como testar
+- 1 Clonar o repositório
+- 2  Abrir com Android Studio ou VsCode
+- 3 Em um terminal, executar o comando:
+```bash
+flutter pub get
+```
+- 4 Executar o aplicativo em um emulador ou dispositivo físico ou em um navegador:
+```bash
+flutter run
+```
